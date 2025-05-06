@@ -1,0 +1,44 @@
+<body>
+ <link rel="stylesheet" href="stylest.css">
+  <header class="jcgg_header" id="jcggHeader"> 
+  <img class="jcgg_imagen" src="https://cdn-icons-png.flaticon.com/512/11096/11096817.png" alt="">
+  <p class="jcgg_logo">La Cueva de los Coders</p>
+
+  <button class="jcgg_menu_icon" onclick="toggleMenu()">⚙️</button>
+
+  <button class="jcgg_color_btn" onclick="jcgg_ChangeColor()">🎨</button>
+
+  <nav class="jcgg_nav">
+    <ul class="jcgg_nav_list">
+      <li><a href="#">Inicio //</a></li>
+      <li><a href="#">Servicios //</a></li>
+      <li><a href="#">Contacto //</a></li>
+      <li><a href="#">Changelog //</a></li>
+      <li><a href="#">Task Tracker //</a></li>
+      <li><a href="#">Acerca de</a></li>
+    </ul>
+  </nav>
+</header>
+  
+  <div class="jcgg_main">
+        <section class="jcgg_hero">
+            <h1>Desarrollo Web Freelance</h1>
+        </section>
+    
+    <section>
+        <div class="jcgg_tascontainer">
+        <div class="jcgg_htitle">Task Tracker</div>
+    <div class="jcgg_inpt-container">
+      <input id="jcgg_taskInput" class="jcgg_inpt" type="text" placeholder="Escribe aqui la proxima tarea a completar" />
+      <button class="jcgg_add-btn" onclick="jcgg_addTask()">➤</button>
+    </div>
+    <ul id="jcgg_taskList" class="jcgg_task-list"></ul>
+        </div>
+        </section>
+    
+    <footer class="jcgg_footer">
+        <div class="jcgg_logo">LCC</div>
+        <p class ="jcgg_pointer">Información de contacto</p>
+    </footer>
+  <script src="scriptt.js"></script>
+</body>
