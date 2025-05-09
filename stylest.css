@@ -53,7 +53,7 @@ html, body {
     text-decoration: none;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1200px) {
     .jcgg_menu_icon {
         display: block;
   }
